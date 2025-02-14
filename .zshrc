@@ -134,14 +134,3 @@ alias vi=nvim
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
 
 export ANT_HOME=/opt/homebrew/Cellar/ant/1.10.15/libexec
-
-ant() {
-    command ant "$@" 2>&1 | sed "s/julian/evelyn/g"
-}
-
-
-ggit() {
-    command git "$@" 2>&1 | awk '{sub(/Enter passphrase for key \x27\/Users\/julian\/\.ssh\/id_ed25519\x27:/,"Enter passphrase for key \x27\/Users\/evelyn\/.ssh\/id_ed25519\x27:"); print;}' | sed 's/julian/evelyn/g'
-}
-
- 
