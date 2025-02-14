@@ -5,7 +5,6 @@ This repository contains my dotfiles and configuration files for various applica
 - Neovim
 - Sketchybar
 - Joplin
-- Visual Studio Code
 
 ## Usage
 - Clone the repository to your local machine

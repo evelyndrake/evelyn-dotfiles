@@ -8,5 +8,3 @@ cp -rf ~/.config/sketchybar ~/Documents/Dev/dotfiles/
 cp -rf ~/.config/neofetch ~/Documents/Dev/dotfiles/
 # Copy joplin-desktop folder
 cp -rf ~/.config/joplin-desktop ~/Documents/Dev/dotfiles/
-# Copy VSCode settings
-cd ~/Library/Application\ Support/Code/User
