@@ -1,0 +1,59 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"locale": "en_US",
+	"api.token": "87e53479ea2a6e3324ac4e4b3e42b83c606f8c45868e06fdf01371807c4e808edbca4cf78d769bcbc7a3679a05de6239201720b7f39e8e0c4c8030ba32c17877",
+	"markdown.plugin.softbreaks": true,
+	"markdown.plugin.typographer": true,
+	"spellChecker.language": "en-US",
+	"ui.layout": {
+		"key": "root",
+		"children": [
+			{
+				"key": "sideBar",
+				"width": 385,
+				"visible": false
+			},
+			{
+				"key": "noteList",
+				"width": 237,
+				"visible": true
+			},
+			{
+				"key": "editor",
+				"visible": true
+			}
+		],
+		"visible": true
+	},
+	"noteVisiblePanes": [
+		"viewer"
+	],
+	"editor.codeView": true,
+	"sync.target": 0,
+	"editor.spellcheckBeta": true,
+	"theme": 2,
+	"timeFormat": "h:mm A",
+	"markdown.plugin.sub": true,
+	"markdown.plugin.sup": false,
+	"clipperServer.autoStart": true,
+	"style.editor.fontSize": 16,
+	"notes.sortOrder.field": "title",
+	"notes.sortOrder.reverse": false,
+	"notes.perFieldReverse": {
+		"user_updated_time": false,
+		"user_created_time": false,
+		"title": false,
+		"order": false
+	},
+	"style.editor.fontFamily": "Helvetica Neue",
+	"style.editor.monospaceFontFamily": "Liga SFMono Nerd Font",
+	"windowContentZoomFactor": 100,
+	"dateFormat": "MM/DD/YYYY",
+	"showTrayIcon": false,
+	"notes.perFolderSortOrders": {
+		"82750181ca254f8a841300ddaf7215b5$field": "user_created_time",
+		"82750181ca254f8a841300ddaf7215b5$reverse": false,
+		"63d4798bbb074cd48dbf24e2572ff4b1$field": "user_created_time",
+		"63d4798bbb074cd48dbf24e2572ff4b1$reverse": false
+	}
+}
