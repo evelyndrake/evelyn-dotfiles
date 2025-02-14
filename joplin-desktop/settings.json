@@ -11,7 +11,7 @@
 			{
 				"key": "sideBar",
 				"width": 385,
-				"visible": false
+				"visible": true
 			},
 			{
 				"key": "noteList",
@@ -26,6 +26,7 @@
 		"visible": true
 	},
 	"noteVisiblePanes": [
+		"editor",
 		"viewer"
 	],
 	"editor.codeView": true,
