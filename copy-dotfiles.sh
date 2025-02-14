@@ -1,5 +1,8 @@
 # Copy neovim folder
 cp -rf ~/.config/nvim ~/Documents/Dev/dotfiles/
+# In the nvim folder, remove .git and .github
+rm -rf ~/Documents/Dev/dotfiles/nvim/.git
+rm -rf ~/Documents/Dev/dotfiles/nvim/.github
 # Copy .zshrc
 cp -f ~/.zshrc ~/Documents/Dev/dotfiles/
 # Copy sketchybar folder
