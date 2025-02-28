@@ -11,12 +11,12 @@
 			{
 				"key": "sideBar",
 				"width": 385,
-				"visible": true
+				"visible": false
 			},
 			{
 				"key": "noteList",
 				"width": 237,
-				"visible": true
+				"visible": false
 			},
 			{
 				"key": "editor",
